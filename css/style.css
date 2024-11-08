@@ -1,10 +1,17 @@
 body {
   font-family: sans-serif;
-  background-image: url('/images/fundo.jpg');
+}
+
+.cardFundo {
+  background-image: url('/images/fundo-colheres.jpg');
   background-size: cover;
   background-position: center;
   background-color: rgba(0, 0, 0, 0.2); /* Define o nível de escurecimento */
   background-blend-mode: darken;
+  padding-left: 400px;
+  padding-right: 400px;
+  padding-bottom: 800px;
+  margin-bottom: 200px;
 }
 
 html,
@@ -15,16 +22,11 @@ html,
   padding: 0;
 }
 
-nav {
-  padding: 50px;
-  background-color: #592512;
+.cardTitulo {
+  padding-top: 50px;
+  color: #592512;
   font-size: 30px;
   text-align: center;
   font-weight: bold;
-  color: white;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-.titulo {
-  text-align: center;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
