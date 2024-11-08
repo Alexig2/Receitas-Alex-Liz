@@ -2,14 +2,17 @@ body {
   font-family: sans-serif;
 }
 
+a {
+  color: black;
+  text-decoration: none;
+}
+
 .cardFundo {
-  background-image: url('/images/fundo-colheres.jpg');
+  background-image: url("/images/fundo-colheres.jpg");
   background-size: cover;
   background-position: center;
-  background-color: rgba(0, 0, 0, 0.2); 
+  background-color: rgba(0, 0, 0, 0.2);
   background-blend-mode: darken;
-  padding-left: 400px;
-  padding-right: 400px;
   padding-bottom: 800px;
   margin-bottom: 200px;
 }
@@ -28,5 +31,24 @@ html,
   font-size: 30px;
   text-align: center;
   font-weight: bold;
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.comidas {
+  display: flex;
+  margin-top: 50px;
+}
+
+.cardComida {
+  background-color: white;
+  border-radius: 5px;
+  padding-bottom: 10px;
+}
+
+.img {
+  border-radius: 5px;
+}
+
+.tituloComida {
+  padding: 5px;
 }
