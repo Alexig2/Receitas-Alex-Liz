@@ -3,7 +3,7 @@ body {
   background-image: url('/images/fundo.jpg');
   background-size: cover;
   background-position: center;
-  background-color: rgba(0, 0, 0, 0.2); /* Define o nível de escurecimento */
+  background-color: rgba(0, 0, 0, 0.2); 
   background-blend-mode: darken;
 }
 
