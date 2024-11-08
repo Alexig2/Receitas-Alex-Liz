@@ -10,11 +10,10 @@ a {
 .cardFundo {
   background-image: url("/images/fundo-colheres.jpg");
   background-size: cover;
-  background-position: center;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-position: bottom;
+  background-color: rgba(0, 0, 0, 0);
   background-blend-mode: darken;
-  padding-bottom: 800px;
-  margin-bottom: 200px;
+  padding-bottom: 430px;
 }
 
 html,
@@ -27,28 +26,34 @@ html,
 
 .cardTitulo {
   padding-top: 50px;
-  color: #592512;
+  color: #df9800;
   font-size: 30px;
   text-align: center;
   font-weight: bold;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .comidas {
   display: flex;
   margin-top: 50px;
+  justify-content: center;
+  gap: 50px;
 }
 
 .cardComida {
   background-color: white;
-  border-radius: 5px;
-  padding-bottom: 10px;
+  border-radius: 10px;
+  padding-bottom: 15px;
+  box-shadow: 0 4px 8px rgb(0, 0, 0, 0.1);
 }
 
 .img {
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .tituloComida {
-  padding: 5px;
+  text-align: center;
+  padding-top: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
 }
